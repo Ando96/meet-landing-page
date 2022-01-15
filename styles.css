@@ -1,0 +1,163 @@
+:root {
+  --dark-blue: #4D96A9;
+  --light-blue: #8FE3F9;
+  --dark-purple: #855FB1;
+  --light-purple: #D9B8FF;
+  --very-dark-purple: #28283D;
+  --grey: #87879D;
+  --white: #FAFAFA;
+  --font-family: 'Red Hat Display', sans-serif;
+  --normal: 500;
+  --bold: 900;
+}
+
+html{
+  
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--white);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 61px;
+  margin-bottom: 117px;
+}
+
+h1 {
+  color: var(--very-dark-purple);
+  font-family: var(--font-family);
+  font-weight: var(--bold);
+  font-size: 64px;
+  line-height: 64px;
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-weight: var(--bold);
+  font-size: 40px;
+  line-height: 44px;
+}
+
+p {
+  color: var(--grey);
+  font-family: var(--font-family);
+  font-weight: var(--normal);
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.logo {
+  margin: auto;
+  margin-top: 80px;
+  width: 119px;
+  height: 28px;
+}
+
+.image-hero {
+  position: relative;
+  right: 32px;
+  bottom: 55px;
+}
+
+.image-hero-right {
+  position: relative;
+  left: 32px;
+}
+
+.middle-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 540px;
+  height: 304px;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: row;
+  width: 348px;
+  height: 58px;
+}
+
+.button {
+  font-family: var(--font-family);
+  font-weight: var(--bold);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 26px;
+}
+
+.left-button {
+  background-color: var(--dark-blue);
+  width: 193px;
+  height: 58px;
+  margin-right: 16px;
+}
+
+.left-button:hover {
+  background-color: #71C0D4;
+}
+
+.version {
+  color: var(--light-blue);
+}
+
+.right-button {
+  background-color: var(--dark-purple);
+  width: 139px;
+  height: 58px;
+}
+
+.right-button:hover {
+  background-color: #B18BDD;
+}
+
+.top-title {
+  width: 445px;
+  height: 128px;
+  text-align: center;
+  padding: 0 0.5rem;
+  margin-bottom: 34px;
+}
+
+.top-text {
+  width: 540px;
+  height: 52px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.overline {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 26px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.splitter {
+  display: flex;
+  margin: auto;
+  width: 56px;
+  height: 140px;
+}
+
+.circle {
+  align-self: flex-end;
+  width: 56px;
+  height: 56px;
+  background: #FAFAFA;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  box-sizing: border-box;
+  border-radius: 29px;
+}
